@@ -3,7 +3,7 @@ namespace ChoreScore.Repositories;
 
 public class ChoresRepo
 {
-  private readonly List<Chore> _chores;
+  private List<Chore> _chores;
 
   public ChoresRepo()
   {
